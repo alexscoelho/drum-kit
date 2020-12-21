@@ -1,0 +1,29 @@
+html {
+    background: url('./background.jpg') bottom center;
+    background-image: cover;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .played {
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+    transform:scale(1.1)
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width:11%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    transition:all 0.07s;
+  }
